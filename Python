@@ -1,5 +1,21 @@
-nome = int(input('digite seu nome:'))
+input("nome: ")
 telefone = int(input('digite seu telefone:'))
 produto = int(input('digite seu produto:'))
 quantidade = int(input('digite seu quantidade:'))
 print('a quantidade doada é:', quantidade)
+
+while True:
+    print("c-cadastrar")
+    print("s-sair")
+    
+escolha = str(input("sua opção:"))
+
+if escolha == c:
+    minha_funcao_cadastro()
+elif escolha == s:
+    minha_funcao_sair()
+    
+else:
+    break
+    
+    
