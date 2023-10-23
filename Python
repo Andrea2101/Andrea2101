@@ -1,0 +1,5 @@
+nome = int(input('digite seu nome:'))
+telefone = int(input('digite seu telefone:'))
+produto = int(input('digite seu produto:'))
+quantidade = int(input('digite seu quantidade:'))
+print('a quantidade doada é:', quantidade)
