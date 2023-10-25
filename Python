@@ -20,3 +20,18 @@ else:
 break
     
     
+
+while True:
+    nome = str(input('digite nome:'))
+    telefone = int(input('digite seu telefone:'))
+    produto = str(input('digite seu produto:'))
+    quantidade = int(input('digite seu quantidade:'))
+
+    continuar = input("Deseja continuar? ")
+    print (continuar, "ok")
+    if continuar != 'S' and continuar != 's':
+        break
+print("Encerrou")
+
+
+print('a quantidade doada é:', quantidade)
