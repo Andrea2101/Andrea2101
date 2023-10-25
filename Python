@@ -42,3 +42,13 @@ print(lista_doacoes)
 ['roupa', 'sapato', 'brinquedo']
 
 print('a quantidade doada é:', roupa)
+
+
+
+lista_doacoes = ['roupas','sapato','brinquedos']
+print(lista_doacoes)
+['roupa', 'sapato', 'brinquedo']
+
+print(lista_doacoes[1])
+roupa
+
