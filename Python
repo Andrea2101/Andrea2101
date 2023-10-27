@@ -52,3 +52,16 @@ print(lista_doacoes)
 print(lista_doacoes[1])
 roupa
 
+
+
+lista=['roupa', 'brinquedo']
+
+def soma_elementos(lista):
+    l = lista
+ 
+l = soma_elementos([1,2])
+soma = 0
+for i in range(len(l)):
+    soma += l[i]
+print(soma)
+
