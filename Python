@@ -1,31 +1,10 @@
-nome = string(input('digite nome'))
-telefone = int(input('digite seu telefone:'))
-produto = int(input('digite seu produto:'))
-quantidade = int(input('digite seu quantidade:'))
-print('a quantidade doada é:', quantidade)
-while True:
-    print("menu")
 
-c - cadastrar
-l - logar
-s - sair
-
-escolha_usuario = str(input("escolha uma opcao:"))
-if escolha_usuario == "c":
-    print("voce escolheu cadastro")
-elif escolha_usuario == "l":
-        print("voce escolheu login")
-else:
-
-break
-    
-    
 
 while True:
-    nome = str(input('digite nome:'))
+    nome = str(input('digite seu nome:'))
     telefone = int(input('digite seu telefone:'))
-    produto = str(input('digite seu produto:'))
-    quantidade = int(input('digite seu quantidade:'))
+    produto = str(input('digite o produto:'))
+    quantidade = int(input('digite a quantidade:'))
 
     continuar = input("Deseja continuar? ")
     print (continuar, "ok")
@@ -33,44 +12,23 @@ while True:
         break
 print("Encerrou")
 
-
-print('a quantidade doada é:', quantidade)
-
-
 lista_doacoes = ['roupas','sapato','brinquedos']
 print(lista_doacoes)
-['roupa', 'sapato', 'brinquedo']
+['roupas', 'sapato', 'brinquedos']
 
-print('a quantidade doada é:', roupa)
-
-
-
-lista_doacoes = ['roupas','sapato','brinquedos']
-print(lista_doacoes)
-['roupa', 'sapato', 'brinquedo']
-
-print(lista_doacoes[1])
-roupa
+print('a quantidade doada é:', quantidade+quantidade)
 
 
 
-lista=['roupa', 'brinquedo']
+while: enquanto
+str/; string serve para armazenar informaçoes de texo(pode conter nome numeros e pontuação)
+int: numeros inteiro
+input: solicita informação ao usuario para preencher, responder ou fazer loginem um sistema
+orint: imprimi 
+if: se
+and: e
+!= diferente igual
+break: sair do loop
 
-def soma_elementos(lista):
-    l = lista
- 
-l = soma_elementos([1,2])
-soma = 0
-for i in range(len(l)):
-    soma += l[i]
-print(soma)
 
-
-def somalista(numeros):
-   if len(numeros) == 1:
-        return numeros[0]
-   else:
-        return numeros[0] + somalista(numeros[1:])
-
-print(somalista([1,3,5,7,9]))
 
