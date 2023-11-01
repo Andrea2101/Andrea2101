@@ -23,8 +23,8 @@ print('a quantidade doada é:', quantidade+quantidade)
 while: enquanto
 str/; string serve para armazenar informaçoes de texo(pode conter nome numeros e pontuação)
 int: numeros inteiro
-input: solicita informação ao usuario para preencher, responder ou fazer loginem um sistema
-orint: imprimi 
+input: solicita informação ao usuario para preencher, responder ou fazer login em um sistema
+print: imprimi 
 if: se
 and: e
 != testa se dois valores são diferentes
