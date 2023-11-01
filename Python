@@ -27,7 +27,7 @@ input: solicita informação ao usuario para preencher, responder ou fazer login
 orint: imprimi 
 if: se
 and: e
-!= diferente igual
+!= testa se dois valores são diferentes
 break: sair do loop
 
 
